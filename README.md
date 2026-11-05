@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy – Solved Labs
 
-![Total Labs Solved](https://img.shields.io/badge/Total_Labs_Solved-2-blue)
+![Total Labs Solved](https://img.shields.io/badge/Total_Labs_Solved-3-blue)
 ![Level](https://img.shields.io/badge/Level-Apprentice-green)
 ![Status](https://img.shields.io/badge/Status-Learning-orange)
 
@@ -20,14 +20,14 @@ My goal is to develop practical web application security and penetration testing
 
 | Level | Completed |
 |---|---:|
-| Apprentice | 2 |
+| Apprentice | 3 |
 | Practitioner | 0 |
 | Expert | 0 |
-| **Total** | **2** |
+| **Total** | **3** |
 
 ## 📚 Categories Covered
 
-- **SQL Injection:** 2 completed labs
+- **SQL Injection:** 3 completed labs
 
 ## 🛠️ Tools Used
 
@@ -45,7 +45,8 @@ portswigger-labs-tracker/
 │
 ├── SQL-Injection/
 │   ├── lab-01-hidden-data.md
-│   └── lab-02-login-bypass.md
+│   ├── lab-02-login-bypass.md
+│   └── lab-03-oracle-database-version.md
 │
 └── Screenshots/
 ```
@@ -56,6 +57,7 @@ portswigger-labs-tracker/
 |---|---|---|---|---|
 | 01 | SQL Injection | Retrieving Hidden Data | Apprentice | ✅ Solved |
 | 02 | SQL Injection | Login Bypass | Apprentice | ✅ Solved |
+| 03 | SQL Injection | Querying Database Version on Oracle | Apprentice | ✅ Solved |
 
 ## 📝 Lab Writeups
 
@@ -63,6 +65,7 @@ Detailed reports explain the vulnerability, testing process, payloads, results, 
 
 - [Lab 01 – SQL Injection: Retrieving Hidden Data](SQL-Injection/lab-01-hidden-data.md)
 - [Lab 02 – SQL Injection: Login Bypass](SQL-Injection/lab-02-login-bypass.md)
+- [Lab 03 – SQL Injection: Querying Database Version on Oracle](SQL-Injection/lab-03-oracle-database-version.md)
 
 ## 📖 Key Concepts Learned
 
@@ -71,6 +74,9 @@ Detailed reports explain the vulnerability, testing process, payloads, results, 
 - How to modify requests using Repeater.
 - How SQL conditions can be manipulated.
 - How SQL comments can bypass login authentication.
+- How UNION-based SQL injection works.
+- How to identify the number of columns using ORDER BY.
+- How to retrieve Oracle database version information.
 - Why parameterized queries help prevent SQL injection.
 
 ## ⚠️ Disclaimer
