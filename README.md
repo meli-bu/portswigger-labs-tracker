@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy – Solved Labs
 
-![Total Labs Solved](https://img.shields.io/badge/Total_Labs_Solved-1-blue)
+![Total Labs Solved](https://img.shields.io/badge/Total_Labs_Solved-2-blue)
 ![Level](https://img.shields.io/badge/Level-Apprentice-green)
 ![Status](https://img.shields.io/badge/Status-Learning-orange)
 
@@ -20,14 +20,14 @@ My goal is to develop practical web application security and penetration testing
 
 | Level | Completed |
 |---|---:|
-| Apprentice | 1 |
+| Apprentice | 2 |
 | Practitioner | 0 |
 | Expert | 0 |
-| **Total** | **1** |
+| **Total** | **2** |
 
 ## 📚 Categories Covered
 
-- **SQL Injection:** 1 completed lab
+- **SQL Injection:** 2 completed labs
 
 ## 🛠️ Tools Used
 
@@ -44,7 +44,8 @@ portswigger-labs-tracker/
 ├── README.md
 │
 ├── SQL-Injection/
-│   └── lab-01-hidden-data.md
+│   ├── lab-01-hidden-data.md
+│   └── lab-02-login-bypass.md
 │
 └── Screenshots/
 ```
@@ -53,13 +54,15 @@ portswigger-labs-tracker/
 
 | No. | Topic | Lab Title | Difficulty | Status |
 |---|---|---|---|---|
-| 01 | SQL Injection | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | Apprentice | ✅ Solved |
+| 01 | SQL Injection | Retrieving Hidden Data | Apprentice | ✅ Solved |
+| 02 | SQL Injection | Login Bypass | Apprentice | ✅ Solved |
 
 ## 📝 Lab Writeups
 
 Detailed reports explain the vulnerability, testing process, payloads, results, and lessons learned.
 
 - [Lab 01 – SQL Injection: Retrieving Hidden Data](SQL-Injection/lab-01-hidden-data.md)
+- [Lab 02 – SQL Injection: Login Bypass](SQL-Injection/lab-02-login-bypass.md)
 
 ## 📖 Key Concepts Learned
 
@@ -67,6 +70,7 @@ Detailed reports explain the vulnerability, testing process, payloads, results, 
 - How to intercept HTTP requests using Burp Suite.
 - How to modify requests using Repeater.
 - How SQL conditions can be manipulated.
+- How SQL comments can bypass login authentication.
 - Why parameterized queries help prevent SQL injection.
 
 ## ⚠️ Disclaimer
