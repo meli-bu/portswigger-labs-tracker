@@ -1,42 +1,49 @@
 # PortSwigger Web Security Academy – Solved Labs
 
-![Total Labs Solved](https://img.shields.io/badge/Total_Labs_Solved-3-blue)
+![Total Labs](https://img.shields.io/badge/Total_Labs-4-blue)
 ![Level](https://img.shields.io/badge/Level-Apprentice-green)
 ![Status](https://img.shields.io/badge/Status-Learning-orange)
 
-This repository documents my journey through [PortSwigger Web Security Academy](https://portswigger.net/web-security).
+This repository documents my journey through **PortSwigger Web Security Academy** practical labs.
 
-My goal is to develop practical web application security and penetration testing skills by completing hands-on labs, understanding vulnerabilities, and documenting my findings.
+My goal is to learn web application security, understand common vulnerabilities, and develop practical penetration testing skills using Burp Suite.
 
-## 🎯 Learning Goals
+## Learning Goals
 
-- Understand common web application vulnerabilities.
-- Develop practical penetration testing skills.
-- Learn to use Burp Suite effectively.
-- Understand how vulnerabilities work and how to prevent them.
-- Progress from Apprentice to Practitioner and Expert labs.
+- Understand common web vulnerabilities.
+- Practice identifying and exploiting vulnerabilities in legal lab environments.
+- Learn how to use Burp Suite effectively.
+- Document my learning process and solutions.
+- Improve my web application penetration testing skills.
 
-## 📊 Progress Overview
+## Progress Overview
 
-| Level | Completed |
+| Level | Completed Labs |
 |---|---:|
-| Apprentice | 3 |
+| Apprentice | 4 |
 | Practitioner | 0 |
 | Expert | 0 |
-| **Total** | **3** |
+| **Total** | **4** |
 
-## 📚 Categories Covered
+## Categories Covered
 
-- **SQL Injection:** 3 completed labs
+| Category | Completed |
+|---|---:|
+| SQL Injection | 4 |
+| Cross-Site Scripting (XSS) | 0 |
+| Authentication | 0 |
+| Access Control | 0 |
+| Other Vulnerabilities | 0 |
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Burp Suite Community Edition
 - Kali Linux
 - PortSwigger Web Security Academy
 - VirtualBox
+- Oracle Database and MySQL lab environments
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 portswigger-labs-tracker/
@@ -46,43 +53,65 @@ portswigger-labs-tracker/
 ├── SQL-Injection/
 │   ├── lab-01-hidden-data.md
 │   ├── lab-02-login-bypass.md
-│   └── lab-03-oracle-database-version.md
+│   ├── lab-03-oracle-database-version.md
+│   └── lab-04-mysql-microsoft-database-version.md
 │
 └── Screenshots/
+    ├── lab-01-solved.png
+    ├── lab-02-solved.png
+    ├── lab-03-solved.png
+    └── lab-04-solved.png
 ```
 
-## 🧪 Solved Labs
+## Solved Labs
 
-| No. | Topic | Lab Title | Difficulty | Status |
-|---|---|---|---|---|
-| 01 | SQL Injection | Retrieving Hidden Data | Apprentice | ✅ Solved |
-| 02 | SQL Injection | Login Bypass | Apprentice | ✅ Solved |
-| 03 | SQL Injection | Querying Database Version on Oracle | Apprentice | ✅ Solved |
+| No. | Lab Title | Difficulty | Status |
+|---|---|---|---|
+| 01 | SQL Injection – Retrieving Hidden Data | Apprentice | ✅ Solved |
+| 02 | SQL Injection – Login Bypass | Apprentice | ✅ Solved |
+| 03 | SQL Injection – Querying Database Version on Oracle | Apprentice | ✅ Solved |
+| 04 | SQL Injection – Querying Database Version on MySQL and Microsoft | Apprentice | ✅ Solved |
 
-## 📝 Lab Writeups
+## Lab Write-ups
 
-Detailed reports explain the vulnerability, testing process, payloads, results, and lessons learned.
+1. [Lab 01 – SQL Injection: Retrieving Hidden Data](SQL-Injection/lab-01-hidden-data.md)
+2. [Lab 02 – SQL Injection: Login Bypass](SQL-Injection/lab-02-login-bypass.md)
+3. [Lab 03 – SQL Injection: Querying Database Version on Oracle](SQL-Injection/lab-03-oracle-database-version.md)
+4. [Lab 04 – SQL Injection: Querying Database Version on MySQL and Microsoft](SQL-Injection/lab-04-mysql-microsoft-database-version.md)
 
-- [Lab 01 – SQL Injection: Retrieving Hidden Data](SQL-Injection/lab-01-hidden-data.md)
-- [Lab 02 – SQL Injection: Login Bypass](SQL-Injection/lab-02-login-bypass.md)
-- [Lab 03 – SQL Injection: Querying Database Version on Oracle](SQL-Injection/lab-03-oracle-database-version.md)
+## Lab Screenshots
 
-## 📖 Key Concepts Learned
+### Lab 01 – Retrieving Hidden Data
+![Lab 01 Solved](Screenshots/lab-01-solved.png)
 
-- SQL injection in a WHERE clause.
-- How to intercept HTTP requests using Burp Suite.
-- How to modify requests using Repeater.
-- How SQL conditions can be manipulated.
-- How SQL comments can bypass login authentication.
-- How UNION-based SQL injection works.
-- How to identify the number of columns using ORDER BY.
-- How to retrieve Oracle database version information.
-- Why parameterized queries help prevent SQL injection.
+### Lab 02 – Login Bypass
+![Lab 02 Solved](Screenshots/lab-02-solved.png)
 
-## ⚠️ Disclaimer
+### Lab 03 – Oracle Database Version
+![Lab 03 Solved](Screenshots/lab-03-solved.png)
 
-All practical security testing documented in this repository is performed in authorized learning environments, such as PortSwigger Web Security Academy.
+### Lab 04 – MySQL and Microsoft Database Version
+![Lab 04 Solved](Screenshots/lab-04-solved.png)
 
----
+## Key Concepts Learned
 
-**One lab at a time. One step closer to becoming a cybersecurity professional. 🚀**
+- SQL injection in WHERE clauses.
+- Boolean-based SQL injection.
+- SQL injection authentication bypass.
+- UNION-based SQL injection.
+- Identifying the number of columns using ORDER BY.
+- Retrieving database information.
+- Oracle database version retrieval using `v$version`.
+- MySQL database version retrieval using `@@version`.
+- SQL comments and query manipulation.
+- Preventing SQL injection using parameterized queries.
+
+## Disclaimer
+
+All practical exercises documented here were performed in authorized PortSwigger Web Security Academy lab environments for educational purposes.
+
+## Learning Journey
+
+**Learning cybersecurity one vulnerability at a time.**
+
+Stay curious. Keep practicing. Keep learning. 🔐
