@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy – Solved Labs
 
-[Total Labs](https://camo.githubusercontent.com/d456ce8a85c6c77d05473dd428740d6e2752865750b96f8aaa38dd5184abb814/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f546f74616c5f4c6162732d352d626c7565) [Level](https://camo.githubusercontent.com/326ea68af0c7ccaf33d247e2a3d8cb0bece963af3c2ea12c22cd066afb50453f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d41707072656e746963652d677265656e) [Status](https://camo.githubusercontent.com/83bac359bc23e09f9e97f1840b168a3799b58b3505ed67028d428af94d508898/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374617475732d4c6561726e696e672d6f72616e6765)
+[![Total Labs](https://img.shields.io/badge/Total_Labs-5-blue)](https://github.com/meli-bu/portswigger-labs-tracker) [![Level](https://img.shields.io/badge/Level-Apprentice-green)](https://github.com/meli-bu/portswigger-labs-tracker) [![Status](https://img.shields.io/badge/Status-Learning-orange)](https://github.com/meli-bu/portswigger-labs-tracker)
 
 This repository documents my journey through **PortSwigger Web Security Academy** practical labs.
 
