@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy – Solved Labs
 
-[![Total Labs](https://img.shields.io/badge/Total_Labs-5-blue)](https://github.com/meli-bu/portswigger-labs-tracker) [![Level](https://img.shields.io/badge/Level-Apprentice-green)](https://github.com/meli-bu/portswigger-labs-tracker) [![Status](https://img.shields.io/badge/Status-Learning-orange)](https://github.com/meli-bu/portswigger-labs-tracker)
+[![Total Labs](https://img.shields.io/badge/Total_Labs-6-blue)](https://github.com/meli-bu/portswigger-labs-tracker) [![Level](https://img.shields.io/badge/Level-Apprentice-green)](https://github.com/meli-bu/portswigger-labs-tracker) [![Status](https://img.shields.io/badge/Status-Learning-orange)](https://github.com/meli-bu/portswigger-labs-tracker)
 
 This repository documents my journey through **PortSwigger Web Security Academy** practical labs.
 
@@ -18,16 +18,16 @@ My goal is to learn web application security, understand common vulnerabilities,
 
 | Level        | Completed Labs |
 | ------------ | -------------- |
-| Apprentice   | 5              |
+| Apprentice   | 6              |
 | Practitioner | 0              |
 | Expert       | 0              |
-| **Total**    | **5**          |
+| **Total**    | **6**          |
 
 ## Categories Covered
 
 | Category                   | Completed |
 | -------------------------- | --------- |
-| SQL Injection              | 5         |
+| SQL Injection              | 6         |
 | Cross-Site Scripting (XSS) | 0         |
 | Authentication             | 0         |
 | Access Control             | 0         |
@@ -52,16 +52,16 @@ portswigger-labs-tracker/
 │   ├── lab-02-login-bypass.md
 │   ├── lab-03-oracle-database-version.md
 │   ├── lab-04-mysql-microsoft-database-version.md
-│   └── lab-05-listing-database-contents.md
+│   ├── lab-05-listing-database-contents.md
+│   └── lab-06-listing-database-contents-oracle.md
 │
 └── Screenshots/
     ├── lab-01-solved.png
     ├── lab-02-solved.png
     ├── lab-03-solved.png
     ├── lab-04-solved.png
-    └── lab-05-solved.png
-
-
+    ├── lab-05-solved.png
+    └── lab-06-solved.png
 ```
 
 ## Solved Labs
@@ -73,6 +73,7 @@ portswigger-labs-tracker/
 | 03  | SQL Injection – Querying Database Version on Oracle                   | Apprentice | ✅ Solved |
 | 04  | SQL Injection – Querying Database Version on MySQL and Microsoft      | Apprentice | ✅ Solved |
 | 05  | SQL Injection – Listing the Database Contents on Non-Oracle Databases | Apprentice | ✅ Solved |
+| 06  | SQL Injection – Listing the Database Contents on Oracle               | Apprentice | ✅ Solved |
 
 ## Lab Write-ups
 
@@ -81,6 +82,7 @@ portswigger-labs-tracker/
 3. [Lab 03 – SQL Injection: Querying Database Version on Oracle](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/SQL-Injection/lab-03-oracle-database-version.md)
 4. [Lab 04 – SQL Injection: Querying Database Version on MySQL and Microsoft](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/SQL-Injection/lab-04-mysql-microsoft-database-version.md)
 5. [Lab 05 – SQL Injection: Listing the Database Contents on Non-Oracle Databases](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/SQL-Injection/lab-05-listing-database-contents.md)
+6. [Lab 06 – SQL Injection: Listing the Database Contents on Oracle](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/SQL-Injection/lab-06-listing-database-contents-oracle.md)
 
 ## Lab Screenshots
 
@@ -89,8 +91,7 @@ portswigger-labs-tracker/
 3. [Lab 03 – Oracle Database Version](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/Screenshots/lab-03-solved.png)
 4. [Lab 04 – MySQL and Microsoft Database Version](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/Screenshots/lab-04-solved.png)
 5. [Lab 05 – Listing Database Contents](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/Screenshots/lab-05-solved.png)
-
-
+6. [Lab 06 – Listing Database Contents on Oracle](https://github.com/meli-bu/portswigger-labs-tracker/blob/main/Screenshots/lab-06-solved.png)
 
 ## Key Concepts Learned
 
@@ -106,6 +107,9 @@ portswigger-labs-tracker/
 - Enumerating database tables using `information_schema.tables`.
 - Discovering database columns using `information_schema.columns`.
 - Retrieving database records through UNION-based SQL injection.
+- Enumerating Oracle database tables using `all_tables`.
+- Discovering Oracle database columns using `all_tab_columns`.
+- Retrieving records from Oracle database tables through UNION-based SQL injection.
 - Preventing SQL injection using parameterized queries.
 
 ## Disclaimer
